@@ -1,28 +1,27 @@
 #include <stdio.h>
-/**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
-int main(void)
-{
-	int x, y;
 
-	<<<<<<< HEAD
-		for (m = 97; m <= 122; m++)
-			putchar(m);
-	for (n = 65; n <= 90; n++)
-		putchar(n);
-	=======
-		for (x = 97; x<= 122; x++)
-		{
-			putchar(x);
-		}
-	for (y = 65; y <= 90; y++)
-	{
-		putchar(y);
-	}
-	>>>>>>> c38d008b18676f16774155151031a0fcc1c46752
-		putchar('\n');
-	return (0);
+#include <unistd.h>
+
+
+
+/**
+ *
+ *  * main - prints exactly "and that piece of art is useful"
+ *
+ *   * - Dora Korpar, 2015-10-19",
+ *
+ *    * followed by a new line, to the standard error.
+ *
+ *     * Return: Always 0 (Success)
+ *
+ *      */
+
+int main(void)
+
+{
+
+		write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+
+			return (1);
+
 }
