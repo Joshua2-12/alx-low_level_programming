@@ -3,6 +3,7 @@
 #define MAIN_H
 
 
+
 void positive_or_negative(int i);
 
 int largest_number(int a, int b, int c);
@@ -36,5 +37,7 @@ void print_square(int size);
 void print_triangle(int size);
 
 void print_number(int n);
+
+
 
 #endif
